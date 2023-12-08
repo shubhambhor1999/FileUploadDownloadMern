@@ -2,8 +2,7 @@
 
 Navigate to both Client and run Below commands
 
-npm i
-npm start
+npm i \n npm start
 
 Hit Below URL on Browser
 http://localhost:3000/
