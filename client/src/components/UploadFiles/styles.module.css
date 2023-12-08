@@ -1,0 +1,51 @@
+.file_upload_container {
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border: 10px;
+    border: 1px solid #3bb19b;
+    border-radius: 5px;
+  }
+  
+  .upload_button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3bb19b;
+    border-radius:10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .upload_button:hover {
+    background-color: #45a049;
+  }
+
+  .file_input {
+    display: none; /* Hide the default file input */
+  }
+  
+  .file_input_label {
+    display: inline-block;
+    padding: 2px;
+    background-color: #3bb19b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file_input_label:hover {
+    background-color: #45a049;
+  }
+  
+  .file_input[type="file"] {
+    display: none; /* Hide the default file input */
+  }
+  
+  .file_input_label::after {
+    content: 'Choose a file';
+  }

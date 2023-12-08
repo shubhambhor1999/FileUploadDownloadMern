@@ -1,0 +1,53 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #3bb19b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	padding: 12px 0;
+	width: 140px;
+	background-color: #3bb19b;
+	border-radius: 20px;
+	border-color: white;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	margin-right: 20px;
+	margin: right;
+}
+.leftdiv {
+  display: flex;
+  gap:30px;
+}
+.file_btn {
+	padding: 12px 0;
+	width: 140px;
+	background-color: #3bb19b;
+	border-radius: 20px;
+	border-color: white;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	margin-right: 20px;
+	margin: auto;
+}
+.file_container{
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10%;
+	
+}
