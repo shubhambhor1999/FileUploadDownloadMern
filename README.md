@@ -1,11 +1,31 @@
-# File Upload Download and Delete with User Register and Login System
+# File Upload, Download, and Delete with User Register and Login System
 
-Navigate to both Client and run Below commands
+This project provides a basic system for users to register, log in, upload files, download files, and delete files.
 
-npm i \n npm start
+## Features
 
-Hit Below URL on Browser
-http://localhost:3000/
+- User Registration: Users can create accounts by providing necessary details.
+- User Login: Registered users can log in to access additional features.
+- File Upload: Logged-in users can upload files.
+- File Download: Users can download files based on a unique code.
+- File Delete: Users can delete their uploaded files.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+2. Navigate to client and backend directory
+   ```bash
+   npm install
+   npm start
+
+3.Create a .env file in backend
+  ```bash
+  port = 8080
+  MONGO_URL=""
+  JWT_SECRET=""
 
 Snapshots of Working project
 ![image](https://github.com/shubhambhor1999/FileUploadDownloadMern/assets/43696697/36cdaa06-0e13-46b1-bc0b-a56149a1eb7a)
